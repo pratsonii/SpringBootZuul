@@ -1,0 +1,7 @@
+server:
+  port: 8084
+zuul:
+  routes:
+    cal:
+      path: /movies/**
+      url: http://localhost:8082
